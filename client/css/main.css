@@ -1,0 +1,81 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 50px;
+    min-width: 50%;
+}
+
+.message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+
+}
+
+h2 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2:hover {
+    box-shadow: 10px 5px 20px grey ;
+}
+
+.card {
+    width: 20% !important;
+    margin: 40px !important;
+}
+
+.card:hover{
+    box-shadow: 10px 5px 20px grey ;
+}
+
+.card-title{
+    background-color: #FFFFFF;
+    opacity: 0.50;
+}
+
+h1 {
+    text-align: center;
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+.product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-page h1 {
+    margin-bottom: 0;
+}
+
+.product-page h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.product-page img {
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    max-height: 500px;
+}
